@@ -1,0 +1,35 @@
+import random
+a=input("enter your choice(rock,paper,scissor) from these")
+ch=['rock','paper','scissors']
+#CC SAYS COMPUTER CHOICE
+cc=random.choice(ch)
+print(f"\nyou took {a} computer took {cp}\n ")
+if(a==cc):
+    print("both selected same its a tie")
+elif(a=='rock'):
+    if(cc=='scissor'):
+    
+        print("rock smashes scissors ,yayy!!!you won!!")
+    
+    else:
+        print("paper covers rock you lost!!")
+    
+elif(a=='scissor'):
+    if(cc=='paper'):
+        print("scissor cuts the paper,yayyy!! you won!!")
+    else:
+        print("rock smashes scissor ,oh!!you lost!!!")
+elif(a=='paper'):
+    
+        if(cc=='rock'):
+             print("paper wins,yayyy!!!  you won")
+        else:
+             print("sciccor wins ,oh!! you lost!!!")
+             
+        
+    
+
+
+
+
+
